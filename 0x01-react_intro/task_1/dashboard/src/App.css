@@ -1,0 +1,30 @@
+body {
+  min-height: 100vh; /* Used to make sure body takes size of screen */
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  border-bottom: solid;
+  color: red;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/* Adding the red border  */
+.App-footer {
+  border-top: solid red;
+}
+
+/* used to center text in the footer paragraph */
+.App-footer p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.App-body {
+  margin-top: 2em;
+  margin-left: 2em;
+}
