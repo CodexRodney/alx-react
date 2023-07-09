@@ -10,6 +10,10 @@ root.render(
     </React.StrictMode>
 );
 
+const div = document.createElement("div");
+div.id = 'root-notifications';
+document.body.insertBefore(div, document.getElementById('root'));
+
 const rootNotifications = ReactDOM.createRoot(document.getElementById('root-notifications'));
 rootNotifications.render(
     <React.StrictMode>

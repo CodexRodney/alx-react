@@ -5,8 +5,15 @@ body {
 }
 
 .App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   border-bottom: solid;
   color: red;
+}
+
+header {
+  height: 100px;
 }
 
 footer {
@@ -27,4 +34,12 @@ footer {
 .App-body {
   margin-top: 2em;
   margin-left: 2em;
+}
+
+form label {
+  margin: 5px;
+}
+
+form button {
+  margin-left: 5px;
 }
